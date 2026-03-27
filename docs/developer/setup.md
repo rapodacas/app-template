@@ -4,6 +4,7 @@
 
 - Node.js 20+
 - npm 10+
+- PostgreSQL installed locally
 - Docker (optional, for containerized runs)
 
 ## Getting Started
@@ -11,6 +12,7 @@
 ```bash
 git clone {{REPO_URL}}
 cd {{app-name}}
+createdb {{app-name}}
 npm install
 cp .env.example .env
 npm run dev

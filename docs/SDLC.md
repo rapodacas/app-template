@@ -117,10 +117,10 @@ main (production)
 
 ## Database Decision Tree
 
-Used by Hunter during the Design phase:
+Used by Hunter during the Design phase. **PostgreSQL is the default** for all new apps.
 
-- **Solo/personal app, simple relational data** → SQLite
-- **Multi-user app, relational data, concurrent writes** → PostgreSQL
+- **Default for all apps** → PostgreSQL (standard choice, handles everything from personal to production)
+- **Truly offline/embedded use case** → SQLite (e.g., mobile app, desktop-only tool with no server)
 - **Document-heavy, flexible schema, real-time sync** → NoSQL (MongoDB/Firebase)
 - **Hybrid needs** → Postgres with JSONB columns
 

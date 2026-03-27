@@ -9,7 +9,7 @@
 |-------|--------|-----------|
 | Runtime | Node.js 20+ | Standard |
 | Framework | Express | Standard |
-| Database | {{SQLite / Postgres / MongoDB}} | {{Why}} |
+| Database | PostgreSQL | Default standard choice. Override only if offline/embedded (SQLite) or document-store (NoSQL). |
 | Testing | Jest + Playwright | Standard |
 | Hosting | {{GitHub Pages / Railway / etc.}} | {{Why}} |
 
