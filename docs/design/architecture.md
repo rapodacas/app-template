@@ -1,6 +1,6 @@
 # {{APP_NAME}} — Architecture
 
-> Authored by: Henry (Design phase)
+> Authored by: Hunter (Design phase)
 > Approved by: Raoul on {{DATE}}
 
 ## Tech Stack
